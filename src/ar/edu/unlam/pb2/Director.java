@@ -25,7 +25,15 @@ public class Director extends Empleado { //heredo la clase padre
 		this.salarioExtraParaGastosDeVehiculo = salarioExtraParaGastosDeVehiculo;
 	}
 	
-	
+	@Override            //sobreescribo metodo del padre y agrego nuevos datos
+	public void brindarDetalles()
+	{
+		System.out.println("Nombre del Director: "+getNombre());
+		System.out.println("Salario del Director: $"+getSalario());
+		System.out.println("Fecha de cumple del Director: "+getFechaDeCumple());
+		System.out.println("Cochera asignada: "+getCochera());
+		System.out.println("Salario extra para gastos del vehiculo: "+getSalarioExtraParaGastosDeVehiculo());
+	}
 	
 	
 	

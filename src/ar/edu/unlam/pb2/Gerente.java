@@ -27,6 +27,17 @@ public class Gerente extends Empleado { //heredo la clase padre
 		this.departamentoAsignado = departamentoAsignado;
 	}
 	
+	@Override  //sobreescribo metodo del padre y agrego nuevos datos
+	public void brindarDetalles()
+	{
+		System.out.println("Nombre del Gerente: "+getNombre());
+		System.out.println("Salario del Gerente: $"+getSalario());
+		System.out.println("Fecha de cumple del Gerente: "+getFechaDeCumple());
+		System.out.println("Cochera asignada: "+getCochera());
+		System.out.println("Departamento asignado: "+getDepartamentoAsignado());
+	}
+	
+	
 	
 	
 }

@@ -38,7 +38,7 @@ public class Empleado {
 		this.fechaDeCumple = fechaDeCumple;
 	}
 	
-	//metodo
+	//metodo que devuelve los detalles del empleado
 	public void brindarDetalles()
 	{
 		System.out.println("Nombre del empleado: "+getNombre());
