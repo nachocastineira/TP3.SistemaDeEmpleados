@@ -2,13 +2,26 @@ package ar.edu.unlam.pb2;
 
 public class ServicioImpuestos {
 	
-		private Double topeDeSalario = 5000d;
-	
+		private Double topeDeSalario;
+		
+		
+		
+			// getters y setters para el tope
+		public Double getTopeDeSalario() {
+			return topeDeSalario;
+		}
+
+		public void setTopeDeSalario(Double topeDeSalario) {
+			this.topeDeSalario = topeDeSalario;
+		}
+
+
+
 		public Double calcularImpuesto(Empleado empleado)
 		{
-			if(empleado.getSalario()>topeDeSalario)
+			if(empleado.getSalario()>=getTopeDeSalario())
 			{
-				empleado.setSalario(empleado.getSalario()*1.10);
+				empleado.setSalario(empleado.getSalario()*0.85);
 			}
 			return empleado.getSalario();
 		}
