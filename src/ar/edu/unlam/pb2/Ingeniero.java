@@ -11,7 +11,7 @@ public class Ingeniero extends Empleado {
 	public void brindarDetalles()
 	{
 		System.out.println("Nombre del ingeniero: "+getNombre());
-		System.out.println("Salario del ingeniero: $"+getSalario());
+		System.out.println("Salario del ingeniero (sin descuento): $"+getSalario());
 		System.out.println("Fecha de cumple del ingeniero: "+getFechaDeCumple());
 	}
 

@@ -11,7 +11,7 @@ public class Secretaria extends Empleado {
 	public void brindarDetalles()
 	{
 		System.out.println("Nombre de la secretaria: "+getNombre());
-		System.out.println("Salario de la secretaria: $"+getSalario());
+		System.out.println("Salario de la secretaria (sin descuento): $"+getSalario());
 		System.out.println("Fecha de cumple de la secretaria: "+getFechaDeCumple());
 	}
 

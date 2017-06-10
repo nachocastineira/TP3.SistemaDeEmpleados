@@ -29,10 +29,10 @@ public class Director extends Empleado { //heredo la clase padre
 	public void brindarDetalles()
 	{
 		System.out.println("Nombre del Director: "+getNombre());
-		System.out.println("Salario del Director: $"+getSalario());
+		System.out.println("Salario del Director (sin descuento): $"+getSalario());
 		System.out.println("Fecha de cumple del Director: "+getFechaDeCumple());
 		System.out.println("Cochera asignada: "+getCochera());
-		System.out.println("Salario extra para gastos del vehiculo: "+getSalarioExtraParaGastosDeVehiculo());
+		System.out.println("Salario extra para gastos del vehiculo: $"+getSalarioExtraParaGastosDeVehiculo());
 	}
 	
 	
