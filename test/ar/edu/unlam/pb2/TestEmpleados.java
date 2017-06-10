@@ -7,12 +7,12 @@ import org.junit.Test;
 public class TestEmpleados {
 
 	@Test
-	public void testQueCreaUnEmpleado() {
-		Empleado miEmpleado1 = new Empleado();
-		miEmpleado1.setNombre("Juan");
-		miEmpleado1.setSalario(200d);
-		miEmpleado1.setFechaDeCumple("1 de Enero");
-		miEmpleado1.brindarDetalles();
+	public void testQueCreaUnIngeniero() {
+		Ingeniero miIngeniero1 = new Ingeniero();
+		miIngeniero1.setNombre("Juan");
+		miIngeniero1.setSalario(200d);
+		miIngeniero1.setFechaDeCumple("1 de Enero");
+		miIngeniero1.brindarDetalles();
 	}
 	
 	@Test
